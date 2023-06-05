@@ -6,7 +6,7 @@
 
 body {
   
-    background-color:#13192b;
+    background-color:#4d8368;
     
     border-radius: 150px;
     font-family:'Raleway';
@@ -14,14 +14,14 @@ body {
     padding:0;
     line-height:1;
     width:100vw;
-    color:#878278 ;
+    color:#181717 ;
 }
 
 
 .profile{
-width: 200px;
-height:300px;
-border-radius: 300%;
+width: 100%;
+height:0%auto;
+border-radius: 50%;
 
 
 }
@@ -37,7 +37,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #1ce6b5;
+    color: #f2faf8;
 }
 
 textarea:focus,
@@ -74,7 +74,7 @@ section header {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 16px;
-    color: #878278;
+    color: #030303;
 }
 
 /*Sessão Title*/
@@ -99,7 +99,7 @@ section.title div.title-div div.title-container h2 {
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    color: #878278;
+    color: #020202;
 }
 
 section.title div.title-div div.title-container h3 {
@@ -118,7 +118,8 @@ section.title div.title-div div.title-container ul {
 }
 
 section.title img.profile {
-    width:5px;
+    width:20rem;
+    height:20rem;
 }
 
 .section-title {
@@ -202,7 +203,7 @@ section.hobbies-section div.hobbies-line div.hobbies-box ul {
 /* Experiência Acadêmica*/
 
 section.academic {
-    background-color:#13192b;
+    background-color:#4d8368;
 }
 
 section.academic div.courses {
@@ -225,7 +226,7 @@ section.academic div.courses ul li {
 
 section.academic div.courses ul li img:nth-child(1) {
     margin-top: 18px;
-
+    width: 50px;
 }
 
 section.academic div.courses ul li.course-img {
@@ -279,7 +280,7 @@ section.experience div.experiencia-box span.experience-repo button {
     justify-content: center;
     align-items: center;
     padding: 12px 16px;
-    border: 1px solid #2A7AE4;
+    border: 2px solid #0f0f0f;
     color: #2A7AE4;
     box-sizing: border-box;
 }
@@ -292,7 +293,7 @@ section.experience div.experiencia-box span.experience-demo button {
     padding: 12px 16px;
     margin-left: 16px;
     border: 1px solid #2A7AE4;
-    background: #2A7AE4;
+    background: #000000;
     color: white;
 }
 
@@ -343,7 +344,7 @@ section.formcontato form input {
 }
 
 form input::placeholder {
-    color: #464646;
+    color: #0e0d0d;
     font-family: 'Raleway';
 }
 
@@ -483,7 +484,7 @@ section.footer div.rodape {
 
     .section-title {
         font-size: 32px;
-        color: #1ce6b5;
+        color: #050505;
     }
 
     /*Menu*/
